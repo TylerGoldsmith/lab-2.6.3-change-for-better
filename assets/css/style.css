@@ -6,7 +6,7 @@ nav,
 
 main,
 .main {
-    background: linear-gradient(aqua, rgb(211, 25, 25));
+    background: linear-gradient(#99eaf8, #e9eba0);
 }
 
 .banner {
@@ -31,9 +31,7 @@ footer,
 }
 
 .flashy-text {
-    color: aqua;
-    animation: blink-animation 0.2s steps(5, start) infinite;
-    -webkit-animation: blink-animation 0.2s steps(5, start) infinite;
+    color: rgb(0, 7, 7)
 }
 
 @keyframes blink-animation {
